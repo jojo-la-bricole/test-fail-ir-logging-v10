@@ -7,7 +7,7 @@
     'category': 'Human Resources',
     'sequence': 75,
     'summary': 'Centralize employee information',
-    'description': "",
+    'description': "fdggggggg",
     'website': 'https://www.odoo.com/page/employees',
     'images': [
         'images/hr_department.jpeg',
