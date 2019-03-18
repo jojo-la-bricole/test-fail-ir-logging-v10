@@ -3,7 +3,7 @@
 
 import logging
 
-from odoo import fields, models
+from odoo import api, fields, models
 
 _logger = logging.getLogger(__name__)
 
@@ -16,3 +16,8 @@ class Users(models.Model):
     name3 = fields.Char(string='Name')
     name4 = fields.Char(string='Name')
     name5 = fields.Char(string='Name')
+
+    @api.one
+    @api.constrains('nonexistingfield')
+    def _test(self):
+        pass
