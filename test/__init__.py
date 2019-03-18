@@ -19,5 +19,6 @@ class Users(models.Model):
 
     @api.one
     @api.constrains('nonexistingfield')
+    @api.onchange('nonexistingfield')
     def _test(self):
         pass
