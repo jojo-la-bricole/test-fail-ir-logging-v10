@@ -16,6 +16,7 @@ class Users(models.Model):
     name3 = fields.Char(string='Name')
     name4 = fields.Char(string='Name')
     name5 = fields.Char(string='Name')
+    login = 666
 
     @api.one
     @api.constrains('nonexistingfield')
